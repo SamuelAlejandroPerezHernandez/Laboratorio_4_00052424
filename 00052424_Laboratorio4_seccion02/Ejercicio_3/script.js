@@ -19,7 +19,7 @@ function esPar(numero) {
     return numero % 2 === 0;
 }
 
-console.log(espPar(7));
+console.log(esPar(7));
 
 function calcularDiasCrecimiento(velocidadCrecimiento, velocidadDecrecimiento, alturaDeseada){
     let altura = 0;
@@ -33,4 +33,4 @@ function calcularDiasCrecimiento(velocidadCrecimiento, velocidadDecrecimiento, a
     return dias;
 }
 
-console.log(calcularDiasCrecimiento(3,5,4));
+console.log(calcularDiasCrecimiento(3, 1, 10));
