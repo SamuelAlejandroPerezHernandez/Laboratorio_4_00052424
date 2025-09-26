@@ -21,7 +21,7 @@ function esPar(numero) {
 
 console.log(espPar(7));
 
-function calcularDiasCrecimiento(velocidadCrecimiento, velocidadCrecimiento, alturaDeseada){
+function calcularDiasCrecimiento(velocidadCrecimiento, velocidadDecrecimiento, alturaDeseada){
     let altura = 0;
     let dias = 0;
     while(altura < alturaDeseada){
