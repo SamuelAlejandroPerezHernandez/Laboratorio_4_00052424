@@ -7,37 +7,32 @@ boton.addEventListener("click", function(){
 
     switch(diaSeleccionado.value.trim().toLowerCase()){
         case "lunes":
-            labores.innerHTML = "El lunes es para revisar las tareas pendientes de la semana pasada y organizar la agenda de estudio.";
+            labores.innerHTML = "Los Lunes debo atender un cliente especifico.";
             respuestaContainer.style.backgroundColor = "rgba(9, 255, 0, 1)";
             labores.style.color = "rgba(0, 0, 0, 1)";
         break;
         case "martes":
-            labores.innerHTML = "El martes es el día ideal para asistir a tutorías o grupos de estudio y avanzar en los proyectos de clase.";
+            labores.innerHTML = "Los Martes visito una agencia fuera de la ciudad. ";
             respuestaContainer.style.backgroundColor = "rgba(9, 255, 0, 1)";
             labores.style.color = "rgba(0, 0, 0, 1)";
         break;
         case "miercoles":
-            labores.innerHTML = "El miércoles toca repasar los temas de la semana y estudiar para los exámenes próximos.";
+            labores.innerHTML = "Los Miércoles debo llevar a mi hija al ballet (balé).";
             respuestaContainer.style.backgroundColor = "rgba(9, 255, 0, 1)";
             labores.style.color = "rgba(0, 0, 0, 1)";
         break;
         case "jueves":
-            labores.innerHTML = "El jueves es el día para dedicar tiempo a la investigación y redactar los informes de las prácticas.";
+            labores.innerHTML = "En Jueves debo priorizar entregas de desarrollo.";
             respuestaContainer.style.backgroundColor = "rgba(9, 255, 0, 1)";
             labores.style.color = "rgba(0, 0, 0, 1)";
         break;
         case "viernes":
-            labores.innerHTML = "El viernes es perfecto para hacer un repaso general antes del fin de semana.";
+            labores.innerHTML = "En Viernes debo atender problemas de manera remota.";
             respuestaContainer.style.backgroundColor = "rgba(9, 255, 0, 1)";
             labores.style.color = "rgba(0, 0, 0, 1)";
         break;
         case "sabado":
-            labores.innerHTML = "El sábado es un buen día para estudiar todo el dia diversas materias.";
-            respuestaContainer.style.backgroundColor = "rgba(9, 255, 0, 1)";
-            labores.style.color = "rgba(0, 0, 0, 1)";
-        break;
-        case "domingo":
-            labores.innerHTML = "El domingo es el día para descansar y organizar las tareas para la próxima semana.";
+            labores.innerHTML = "En Sábado debo hacer lo que mi esposa quiera.";
             respuestaContainer.style.backgroundColor = "rgba(9, 255, 0, 1)";
             labores.style.color = "rgba(0, 0, 0, 1)";
         break;
